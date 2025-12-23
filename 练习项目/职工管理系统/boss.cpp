@@ -1,20 +1,20 @@
 #include"boss.h"
-//Ê¹ÓÃ¹¹Ôìº¯Êı¸ø³ÉÔ±±äÁ¿¸³Öµ
+//ä½¿ç”¨æ„é€ å‡½æ•°ç»™æˆå‘˜å˜é‡èµ‹å€¼
 boss::boss(int id, std::string name, int deptid)
 {
 	this->m_id = id;
 	this->m_name = name;
 	this->m_deptid = deptid;
 }
-//ÖØĞ´ÏÔÊ¾º¯ÊıºÍ¸ÚÎ»Ãû³Æº¯Êı
+//é‡å†™æ˜¾ç¤ºå‡½æ•°å’Œå²—ä½åç§°å‡½æ•°
 void boss::show_info()
 {
 	std::cout << this->m_id << '\t' << this->m_name << '\t'
 	<< this->get_postname()<<std::endl;
 }
 
-//»ñÈ¡¸ÚÎ»Ãû³Æ
+//è·å–å²—ä½åç§°
 std::string boss::get_postname()
 {
-	return static_cast<std::string>("×Ü²Ã");
+	return static_cast<std::string>("æ€»è£");
 }
