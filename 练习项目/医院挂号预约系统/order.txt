@@ -1,0 +1,6 @@
+date:1 intraval:2 office_num:3 select_doctor:2 phone_number:2 status:1
+date:2 intraval:1 office_num:3 select_doctor:1 phone_number:2 status:1
+date:1 intraval:2 office_num:2 select_doctor:1 phone_number:3 status:1
+date:1 intraval:2 office_num:1 select_doctor:2 phone_number:3 status:1
+date:1 intraval:2 office_num:1 select_doctor:1 phone_number:2 status:1
+date:1 intraval:2 office_num:1 select_doctor:2 phone_number:2 status:1
